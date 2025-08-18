@@ -3,6 +3,7 @@
 Simple OOP project to manage bank accounts, customers, and operations.
 
 ## Features
+- OOP concepts: inheritance, polymorphism, abstraction
 - Accounts (checking/savings): deposit, withdraw, transfer
 - Customers management
 - Roles: BankTeller, BankManager
@@ -29,5 +30,5 @@ src/
       Reportable.java
 
 ## Build & Run
-javac -d out $(find src -name "*.java")
+javac -d out src/app/*.java src/bank/*.java src/bank/exceptions/*.java src/bank/interfaces/*.java
 java -cp out app.Main
